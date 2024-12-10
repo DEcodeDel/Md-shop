@@ -169,12 +169,17 @@ a {
  
 }
 
+.girlyanda-fon img{
+	width: 100%;
+}
+
 .catalog {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	background-color: #0f0f0f;
 	height: 50px;
+	width: 100%;
 	box-shadow: 0px 5px 10px 0px rgba(86, 86, 86, 0.5); 
 	
 }
@@ -208,6 +213,12 @@ a {
 	display: flex;
 	
 }
+
+.media {
+	width: 100%;
+	margin: auto;
+}
+
 
 .forma {
 	top: 45%; 

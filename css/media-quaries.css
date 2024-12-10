@@ -1,0 +1,142 @@
+* {
+    transition: all .2s;
+}
+
+
+@media only screen and (max-width: 1920px) {
+    .media {
+        width: 100%;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .media {
+        width: 100%;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 796px) {
+    .media {
+        width: 100%;
+    }
+
+    .header{
+        height: 100px;
+        border-radius: 3px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .image img {
+        height: 200px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .price {
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    .info h3 {
+        font-size: 14px;
+    }
+
+    .info h5 {
+        font-size: 12px;
+    }
+
+    .img-logo {
+        height: 50px;
+    }
+
+    .catalog {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .media {
+        width: 100%;
+    }
+
+    .header{
+        height: 100px;
+        border-radius: 3px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .info-block {
+        display: flex;
+    }
+
+    .nav-item-pravila {
+        font-size: 12px;
+    }
+
+    .nav-item-dolya {
+        font-size: 12px;
+    }
+
+    .knopki {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 30px;
+
+    }
+
+    .image img {
+        height: 350px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .price {
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    .info h3 {
+        font-size: 14px;
+    }
+
+    .info h5 {
+        font-size: 12px;
+    }
+
+    .img-logo {
+        height: 35px;
+    }
+
+    .catalog {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}
