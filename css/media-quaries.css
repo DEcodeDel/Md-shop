@@ -72,6 +72,77 @@
     }
 }
 
+@media only screen and (max-width: 412px) {
+    .media {
+        width: 100%;
+    }
+
+    .header{
+        height: 100px;
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .info-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .nav-item-pravila {
+        font-size: 12px;
+    }
+
+    .nav-item-dolya {
+        font-size: 12px;
+    }
+
+    .knopki {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 70px;
+
+    }
+
+    .image img {
+        height: 350px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .price {
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    .info h3 {
+        font-size: 14px;
+    }
+
+    .info h5 {
+        font-size: 12px;
+    }
+
+    .img-logo {
+        height: 35px;
+    }
+
+    .catalog {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .media {
         width: 100%;
