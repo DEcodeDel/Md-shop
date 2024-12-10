@@ -226,8 +226,8 @@
 
     .navbar{
         width: 100%;
-        display: flex;
-        align-items: center;
+        flex-direction: column-reverse;
+        align-items: flex-end;
     }
 
     .info-block {
