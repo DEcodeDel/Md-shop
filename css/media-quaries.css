@@ -214,6 +214,144 @@
     }
 }
 
+@media only screen and (max-width: 416px) {
+    .media {
+        width: 100%;
+    }
+
+    .header{
+        height: 100px;
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .main-nav {
+        width: 150px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .info-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .nav-item-pravila {
+        font-size: 12px;
+    }
+
+    .nav-item-dolya {
+        font-size: 12px;
+    }
+
+    .knopki {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 100px;
+
+    }
+
+    .shop {
+        border: none;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00d77a;
+        color: rgb(16, 16, 16);
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-right: 30px;
+        display: inline-block;
+    }
+    .chek {
+        border: none;
+        width: 200px;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0f0f0f;
+        color: white;
+        border-radius: 10px;
+        display: inline-block;
+        transition: box-shadow 0.6s, transform 0.5s;
+    }
+    .forma {
+        top: 45%; 
+        left: 50%; 
+        width: 325px; 
+        height: 550px; 
+        position: absolute; 
+        margin-top: -225px; 
+        margin-left: -150px;
+        background-color: rgb(255, 255, 255); 
+        box-shadow: 0px 5px 10px 0px rgba(136, 136, 136, 0.5); 
+        border-radius: 7px;
+    }
+    .forma-two {
+        top: 45%; 
+        left: 50%; 
+        width: 325px; 
+        height: 300px; 
+        position: absolute; 
+        margin-top: -225px; 
+        margin-left: -150px;
+        background-color: rgb(255, 255, 255); 
+        box-shadow: 0px 5px 10px 0px rgba(136, 136, 136, 0.5); 
+        border-radius: 7px;
+    }	
+    p {
+        font-size: 10px;
+    }
+
+    .image img {
+        height: 350px;
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .price {
+        font-weight: 700;
+        font-size: 11px;
+    }
+
+    .info h3 {
+        font-size: 14px;
+    }
+
+    .info h5 {
+        font-size: 12px;
+    }
+
+    .img-logo {
+        height: 30px;
+    }
+
+    .catalog {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        width: 100px;
+        margin-left: 150px;
+    }
+    .text-table {
+        font-size: 9px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+}
+
 @media only screen and (max-width: 392px) {
     .media {
         width: 100%;
