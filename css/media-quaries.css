@@ -363,7 +363,7 @@
     }
 
     .navbar{
-        width: 100%;
+        width: 105%;
         flex-direction: column-reverse;
         align-items: flex-end;
     }
@@ -403,10 +403,15 @@
 
     .nav-item-pravila {
         font-size: 12px;
+        margin-right: 0px;
+        margin-left: 25%;
     }
 
     .nav-item-dolya {
         font-size: 12px;
+        position: absolute;
+        top: 0.3%;
+        right: 2%;
     }
 
     .knopki {
