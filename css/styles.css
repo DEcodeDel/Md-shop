@@ -19,6 +19,15 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url('https://img.freepik.com/free-vector/christmas-pattern_53876-57875.jpg?t=st=1730317263~exp=1730320863~hmac=04e57a544b524c7f5c4e29af288f92ca8c5ff6381d9d28f97f635fea146c2cf9&w=740');
+	background-position: center;
+	background-size: contain;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	width: 100%;
+}
+
 a { 
     text-decoration: none; 
 } 
